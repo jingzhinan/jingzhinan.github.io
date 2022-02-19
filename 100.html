@@ -1,0 +1,56 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<html lang="zh-CN">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>建筑类</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link href="css/style1.css" rel="stylesheet" type="text/css" />
+<style type="text/css">
+a:link {
+	text-decoration: none;
+}
+a:visited {
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: none;
+}
+a:active {
+	text-decoration: none;
+}
+</style>
+</head>
+
+<body>
+
+<div id="loding">
+<div id="top"><img src="images/top.jpg"/></div>
+<a href="110.html" id="button">二级建造师</a>
+<a href="210.html" id="button">一级建造师</a>
+<a href="310.html" id="button">一级造价师</a>
+<a href="410.html" id="button">安全工程师</a>
+<a href="510.html" id="button">监理工程师</a>
+<a href="610.html" id="button">中级经济师</a>
+
+</div>  
+<!--end loding-->
+
+<a href="denglu.asp" id="button" style="width: 88px;">安全退出</a>
+
+<script src="js/jquery.js"></script>
+<script>
+$("#button").click(
+function()
+{
+$("input").fadeOut(500);
+$("#button").fadeOut(500);
+$("#info").fadeOut(500);
+$("#info").css({"font-size":"36px","top":"1000px;"});
+$("#info").fadeIn(1000);
+}
+)
+
+</script>
+</body>
+</html>
